@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-html",
+    "name": "sirajunnasihin/laravel-html",
     "description": "A fluent html builder",
     "keywords": [
         "spatie",
@@ -17,6 +17,12 @@
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Sirajunnasihin",
+            "email": "therasoftware010@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
