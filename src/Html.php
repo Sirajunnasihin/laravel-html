@@ -647,4 +647,17 @@ class Html
             return $value;
         }
     }
+
+    protected function toHtmlString($html)
+    {
+        return new HtmlString($html);
+    }
+
+    public function image($url, $alt = null, $attributes = [], $secure = null)
+    {
+        $attributes['alt'] = $alt;
+
+        return $this->toHtmlString('<img src="' . $this->url->asset($url,
+            $secure) . '"' . $this->attributes($attributes) . '>');
+    }
 }
